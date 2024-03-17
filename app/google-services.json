@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "509017471182",
+    "project_id": "insight-artistry",
+    "storage_bucket": "insight-artistry.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509017471182:android:ee8d27b28644d27ef9b89f",
+        "android_client_info": {
+          "package_name": "com.example.artgalleryapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509017471182-cq7rguvckhequa0u73nft8qejhbdtg4l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnf_E8A9d-1v3254cm5Q6i5Z_nk0Lw5sw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509017471182-cq7rguvckhequa0u73nft8qejhbdtg4l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

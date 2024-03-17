@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/lightseaagreen">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/noteicon"/>
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:text="1. Introduction
+These terms and conditions apply to the sale of a Serpentine Galleries
+Limited Print or Portfolio by the Artist by the Serpentine Galleries to you.
+2. Title and Risk
+As soon as the purchase price is paid in full, you will become the legal owner of the Artwork and, upon such
+payment, you will be responsible for the Artwork and the risk of damage to or loss of the Artwork will pass
+to you.
+3. Ownership of the Artwork Copyright
+4. Data Protection
+5. Liability of the Serpentine
+6. Rights of Third Parties
+7. Governing Law and Jurisdiction"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/alike_angular"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

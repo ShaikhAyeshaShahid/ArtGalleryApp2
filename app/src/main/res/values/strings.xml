@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Insight Artistry</string>
+    <string name="OpenDrawer">Open navigation drawer</string>
+    <string name="CloseDrawer">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string-array name="canvassize">
+        <item>4 x 4</item>
+        <item>4 x 6</item>
+        <item>5 x 5</item>
+        <item>6 x 6</item>
+        <item>6 x 8</item>
+        <item>8 x 8</item>
+        <item>10 x 10</item>
+        <item>10 x 12</item>
+        <item>12 x 18</item>
+        <item>12 x 24</item>
+        <item>4 x 8</item>
+        <item>5 x 7</item>
+        <item>8 x 10</item>
+        <item>9 x 12</item>
+        <item>11 x 14</item>
+        <item>12 x 12</item>
+        <item>12 x 16</item>
+        <item>16 x 20</item>
+        <item>18 x 24</item>
+        <item>24 x 24</item>
+        <item>24 x 30</item>
+    </string-array>
+
+    <string-array name="art_category">
+        <item>Abstract Art</item>
+        <item>Digital Art</item>
+        <item>Digital Potrait</item>
+        <item>Calligraphy</item>
+        <item>Islamic Art</item>
+        <item>Darweish Art</item>
+        <item>Pencil and Charcoal Art</item>
+        <item>Ceramic Art</item>
+    </string-array>
+
+</resources>

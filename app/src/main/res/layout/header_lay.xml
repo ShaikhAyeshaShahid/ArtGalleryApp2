@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="@color/lightseaagreen"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    >
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/logoicon"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:src="@drawable/logo2" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        >
+
+
+        <ImageView
+            android:id="@+id/usericon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/user_icon"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="-230dp"
+            />
+
+        <TextView
+            android:id="@+id/user_profile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/usericon"
+            android:fontFamily="@font/ceviche_one"
+            android:includeFontPadding="false"
+            android:text="Shaikh Ayesha Shahid"
+            android:textColor="@color/black"
+            android:textSize="20sp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/user_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/user_profile_name"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/usericon"
+            android:includeFontPadding="false"
+            android:text="insight_artistry@gmail.com"
+            android:textColor="@color/black"
+            android:textSize="14sp">
+
+        </TextView>
+    </RelativeLayout>
+
+</LinearLayout>

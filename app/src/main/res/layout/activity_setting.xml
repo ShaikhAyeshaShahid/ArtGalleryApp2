@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/lightseaagreen"
+    android:orientation="vertical"
+    tools:context=".SettingActivity">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl_settings_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            >
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alike_angular"
+                android:gravity="center"
+                android:text="Settings"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/cl_notifications"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_margin="15dp"
+                android:visibility="visible">
+
+                <ImageButton
+                    android:id="@+id/iv_notification"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_toRightOf="@id/tv_notifications"
+                    android:background="@color/lightseaagreen"
+                    android:src="@drawable/ic_baseline_doorbell_24" />
+
+                <TextView
+                    android:id="@+id/tv_notifications"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:text="Notifications"
+                    android:fontFamily="@font/arizonia"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"
+                    android:textStyle="normal"
+                    android:gravity="center"
+                    android:layout_marginLeft="20dp" />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/cl_contact_us"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_margin="15dp"
+                android:visibility="visible"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/iv_contact_us"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="129dp"
+                    android:layout_toRightOf="@id/tv_contact_us"
+                    android:background="@color/lightseaagreen"
+                    android:src="@drawable/phoneicon" />
+
+                <TextView
+                    android:id="@+id/tv_contact_us"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:text="Contact us"
+                    android:fontFamily="@font/arizonia"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"
+                    android:textStyle="normal"
+                    android:gravity="center"
+                    android:layout_marginLeft="20dp" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/cl_terms_and_conditions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_margin="15dp"
+                android:visibility="visible"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/iv_terms_and_conditions"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_toRightOf="@id/tv_terms_and_conditions"
+                    android:background="@color/lightseaagreen"
+                    android:src="@drawable/noteicon" />
+
+                <TextView
+                    android:id="@+id/tv_terms_and_conditions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:text="Terms and Condition"
+                    android:fontFamily="@font/arizonia"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"
+                    android:textStyle="normal"
+                    android:gravity="center"
+                    android:layout_marginLeft="20dp"  />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/cl_privacy_policy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_margin="15dp"
+                android:visibility="visible"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/iv_privacy_policy"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="89dp"
+                    android:layout_toRightOf="@id/tv_privacy_policy"
+                    android:background="@color/lightseaagreen"
+                    android:src="@drawable/passwordicon" />
+
+                <TextView
+                    android:id="@+id/tv_privacy_policy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:text="Privacy Policy"
+                    android:fontFamily="@font/arizonia"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"
+                    android:textStyle="normal"
+                    android:gravity="center"
+                    android:layout_marginLeft="20dp" />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/cl_sign_out"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_margin="15dp"
+                android:visibility="visible"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/iv_sign_out"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="153dp"
+                    android:layout_toRightOf="@id/tv_sign_out"
+                    android:background="@color/lightseaagreen"
+                    android:src="@drawable/ic_exit_to_app_" />
+
+                <TextView
+                    android:id="@+id/tv_sign_out"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:text="Sign Out"
+                    android:fontFamily="@font/arizonia"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"
+                    android:textStyle="normal"
+                    android:gravity="center"
+                    android:layout_marginLeft="20dp" />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
